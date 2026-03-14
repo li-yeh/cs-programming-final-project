@@ -96,7 +96,7 @@ class StockApp:
     def run_logic(self, stocknum, y, m, d):
 
         wiki_result = self.get_wiki_info(stocknum)
-        uri = 'mongodb+srv://yeh20060909_db_user:D0yWlZThGDsuCVdO@stockmarketinquiry.9zyiu3o.mongodb.net/'
+        uri = mongodb+srv://<你的帳號>:<你的密碼>@<你的叢集位址>/
         
         try:
             self.log('')
