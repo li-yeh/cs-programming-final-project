@@ -1,8 +1,8 @@
-# 📈 台灣股票資料查詢系統 (Taiwan Stock Market Inquiry System)
+# 台股資料查詢系統 (Taiwan Stock Market Inquiry System)
 
 > **計算機概論與程式設計 期末專案 (Introduction to Computer Science and Programming - Final Project)**
 
-這是一個使用 Python 開發的桌面端應用程式。透過 Tkinter 打造圖形化介面，結合 FinMind API 獲取台灣股市每日交易資料，並將歷史數據快取至 MongoDB 資料庫中，以提升查詢效率與減少重複的 API 請求。此外，系統亦整合了維基百科，於查詢時同步顯示該公司的基本簡介。
+這是以 Python 開發的桌面端應用程式。透過 Tkinter 打造圖形化介面，結合 FinMind API 獲取台股每日的交易資料，並將一年以上的歷史數據快取至 MongoDB 資料庫中，以提升查詢效率與減少重複的 API 請求。此外亦整合了維基百科，於查詢時同步顯示該公司的基本簡介。
 
 ## ✨ 核心功能 (Features)
 
@@ -21,7 +21,7 @@
 * **非同步處理**: `threading`
 
 ## 🚀 安裝與執行 (Installation & Usage)
-pip install pandas pymongo FinMind wikipedia certifi
+
 ### 1. 複製專案 (Clone the repository)
 ```bash
 git clone [https://github.com/li-yeh/cs-programming-final-project.git](https://github.com/li-yeh/cs-programming-final-project.git)
